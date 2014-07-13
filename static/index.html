@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+<title>Pizza Cat Image Map</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body ng-init="count=0">
+<h1>Pizza Cat Image Map</h1>
+<h3>Number of times you've clicked this poor cat: {{count}}</h3>
+<br>
+<img src="pizza-cat.jpg" alt="Pizza Cat" width="500" height="498" border="0" usemap="#map" />
+
+<map name="map">
+<area shape="circle" coords="268,213,74" alt="Cat&apos;s Face" title="Cat&apos;s Face" nohref="nohref" ng-click="count = count + 1" />
+<area shape="poly" coords="125,323,107,363,109,428,143,476,152,498,368,498,371,442,378,414,372,356,360,326,326,335,252,341,215,338,125,323" alt="Cat&apos;s Body" title="Cat&apos;s Body" nohref="nohref" ng-click="count = count + 1" />
+</map>
+
+<br><br>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+
+<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- englishtibetan_largeleaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:970px;height:90px"
+     data-ad-client="ca-pub-3128393004748774"
+     data-ad-slot="9587382946"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</body>
+</html>
+
